@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0d889746.css",
+    "main.js": "/portfolio/static/js/main.2b14342e.js",
+    "static/media/ramaacreations.webp": "/portfolio/static/media/ramaacreations.348946a4d4344955f2ae.webp",
+    "static/media/WhatsApp Image 2023-01-23 at 22.16.38.jpg": "/portfolio/static/media/WhatsApp Image 2023-01-23 at 22.16.38.d4965ecab4fd28649c42.jpg",
+    "index.html": "/portfolio/index.html",
+    "static/media/alibabacloud-icon.svg": "/portfolio/static/media/alibabacloud-icon.8b25306de796921a56c0103b0f4a8a89.svg",
+    "static/media/Github.svg": "/portfolio/static/media/Github.0fe6486fb13b13a23173aef11c50bdc7.svg",
+    "static/media/Instagram.svg": "/portfolio/static/media/Instagram.47062839e5410b572786303916ac829b.svg",
+    "static/media/envelope.svg": "/portfolio/static/media/envelope.e7afa513034f494257d36d2f9b618fff.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.9f09419940e80957a8b2196bf86cd41c.svg",
+    "static/media/link.svg": "/portfolio/static/media/link.42bdd49e014a991341b4e8936cc6532b.svg",
+    "main.0d889746.css.map": "/portfolio/static/css/main.0d889746.css.map",
+    "main.2b14342e.js.map": "/portfolio/static/js/main.2b14342e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d889746.css",
+    "static/js/main.2b14342e.js"
+  ]
+}
