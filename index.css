@@ -1,0 +1,240 @@
+@import url("//fonts.googleapis.com><link rel=preconnect href=https"); 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"); 
+@font-face { 
+  font-family:"Font Awesome 6 Brands";
+  font-style:normal;
+  font-weight:400;
+  font-display:block;
+  src:url(https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-brands-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-brands-400.ttf) format("truetype");
+} 
+@font-face { 
+  font-family:"Font Awesome 6 Free";
+  font-style:normal;
+  font-weight:400;
+  font-display:block;
+  src:url(https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-regular-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-regular-400.ttf) format("truetype");
+} 
+@font-face { 
+  font-family:"Font Awesome 6 Free";
+  font-style:normal;
+  font-weight:900;
+  font-display:block;
+  src:url(https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-solid-900.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.3.0/webfonts/free-fa-solid-900.ttf) format("truetype");
+} 
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap"); 
+* { 
+    box-sizing:  border-box; 
+    margin:  0; 
+    padding:  0;
+    scrollbar-color: #8e8e8e #fff; 
+    scrollbar-width: thin;
+} 
+
+.container { 
+    margin: 0 auto; 
+    max-width: 107rem; 
+    padding: 0 4rem;
+} 
+
+.project { 
+    background-color: #f9f9f9; 
+    padding: 15rem 0;
+} 
+
+body { 
+    background-color: #fff; 
+    font-family: Poppins,sans-serif; 
+    position: relative;
+} 
+
+html { 
+    font-size: 62.5%; 
+    scroll-behavior: smooth;
+} 
+
+.project-content { 
+    display: flex; 
+    flex-direction: column;
+} 
+
+:-webkit-scrollbar { 
+    width: 8px;
+} 
+
+:-webkit-scrollbar-thumb { 
+    background-color: #8e8e8e; 
+    border-radius: 20px;
+} 
+
+:-webkit-scrollbar-track { 
+    background-color: #fff; 
+    border-radius: 20px;
+} 
+
+.project-content p  { 
+    color: #147efb; 
+    font-size: 1.7rem; 
+    font-weight: 700; 
+    margin-bottom: 1rem; 
+    text-transform: uppercase;
+} 
+
+.project-content h3  { 
+    color: #2d2e32; 
+    font-size: 2.5rem; 
+    margin-bottom: 6rem;
+} 
+
+.projects-grid { 
+    grid-gap: 5rem; 
+    display: grid; 
+    gap: 5rem; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto; 
+    height: auto; 
+    width: 100%;
+} 
+
+.projects-grid .pro  { 
+    background-color: #fff; 
+    border-radius: 1.7rem; 
+    box-shadow: 0 0 10px rgba(0,0,0,.1); 
+    display: flex;
+} 
+
+.projects-grid .pro__1  { 
+    flex-direction: row; 
+    gap: 8rem; 
+    height: 40rem; 
+    padding: 2rem;
+} 
+
+.reversed-proj { 
+    flex-direction: row-reverse!important;
+} 
+
+.projects-grid .pro__img  { 
+    background-color: hsla(0,0%,46%,.2); 
+    border-radius: 1.7rem; 
+    box-shadow: 0 0 10px rgba(0,0,0,.1); 
+    height: auto; 
+    overflow: hidden; 
+    width: 53rem;
+} 
+
+.projects-grid .pro__text  { 
+    display: flex; 
+    flex-direction: column; 
+    height: auto; 
+    justify-content: center; 
+    text-align: center; 
+    width: 30rem;
+} 
+
+.projects-grid .pro__text h3  { 
+    color: #2d2e32; 
+    font-size: 1.7rem; 
+    margin-bottom: 2rem; 
+    position: relative; 
+    text-transform: uppercase;
+} 
+
+.projects-grid .pro__text p  { 
+    color: #767676; 
+    font-size: 1.7rem; 
+    font-weight: 500; 
+    text-align: center; 
+    text-transform: none;
+} 
+
+.stack { 
+    display: flex; 
+    gap: 1rem; 
+    justify-content: center; 
+    margin-top: 1rem;
+} 
+
+.links { 
+    display: flex;
+    gap:  1rem; 
+    justify-content:  space-evenly; 
+    margin-top:  3rem;
+    align-items: center; 
+} 
+
+.projects-grid .pro__img img  { 
+    height: auto; 
+    width: 100%;
+} 
+
+.stack p  { 
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0,0,0,.1); 
+    color: #000!important; 
+    font-family: Mulish,sans-serif!important; 
+    font-weight: 600!important; 
+    padding: 1rem 1.3rem;
+} 
+
+.links a  { 
+    display:  flex;
+    align-items:  center; 
+    color: #2d2e32; 
+    font-size: 1.7rem; 
+    font-weight: 500; 
+    gap: 5px; 
+    text-decoration: none;
+} 
+
+.links a:hover  { 
+    color: #147efb; 
+    transition: all .3s;
+} 
+
+@media all{ 
+  .fa-brands { 
+    display:   var(--fa-display,inline-block); 
+    -moz-osx-font-smoothing:   grayscale; 
+    -webkit-font-smoothing:   antialiased; 
+    font-style:   normal; 
+    font-variant:   normal; 
+    line-height:   1; 
+    text-rendering:   auto;
+    font-family:  "Font Awesome 6 Brands";
+    font-weight: 400;
+  } 
+}     
+
+.links a i  { 
+    font-size: 2.8rem;
+} 
+
+@media all{ 
+  .fa-github:before { 
+    content: "\f09b";
+  } 
+
+  .fa-solid { 
+    display:   var(--fa-display,inline-block); 
+    -moz-osx-font-smoothing:   grayscale; 
+    -webkit-font-smoothing:   antialiased; 
+    font-style:   normal; 
+    font-variant:   normal; 
+    line-height:   1; 
+    text-rendering:   auto;
+    font-family:  "Font Awesome 6 Free";
+    font-weight: 900;
+  } 
+}     
+
+.links a .link-icon  { 
+    font-size: 2rem!important;
+} 
+
+@media all{ 
+  .fa-arrow-up-right-from-square:before,.fa-external-link:before { 
+    content: "\f08e";
+  } 
+}     
+
+
